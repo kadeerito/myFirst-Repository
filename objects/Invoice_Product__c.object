@@ -143,8 +143,7 @@
     <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Sales invoices linked to customers within Salesforce</description>
-    <enableActivities>true</enableActivities>
+    <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
@@ -155,151 +154,76 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
-        <fullName>Account__c</fullName>
+        <fullName>Invoice__c</fullName>
         <externalId>false</externalId>
-        <label>Account</label>
-        <referenceTo>Account</referenceTo>
-        <relationshipLabel>invoices</relationshipLabel>
-        <relationshipName>invoices</relationshipName>
+        <label>Invoice</label>
+        <referenceTo>Invoice__c</referenceTo>
+        <relationshipLabel>Invoice Products</relationshipLabel>
+        <relationshipName>Invoice_Products</relationshipName>
         <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <fields>
-        <fullName>Invoice_Date__c</fullName>
-        <defaultValue>Today()</defaultValue>
+        <fullName>Product_Name__c</fullName>
         <externalId>false</externalId>
-        <inlineHelpText>The date in which the invoice was created in our invoice system.</inlineHelpText>
-        <label>Invoice Date</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>Notes__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>Any notes you wish to enter about this invoice</inlineHelpText>
-        <label>Notes</label>
-        <length>32768</length>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Html</type>
-        <visibleLines>20</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Status__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>The current status of the invoice</inlineHelpText>
-        <label>Status</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Draft</fullName>
-                    <default>true</default>
-                    <label>Draft</label>
-                </value>
-                <value>
-                    <fullName>Invoiced</fullName>
-                    <default>false</default>
-                    <label>Invoiced</label>
-                </value>
-                <value>
-                    <fullName>Overdue</fullName>
-                    <default>false</default>
-                    <label>Overdue</label>
-                </value>
-                <value>
-                    <fullName>Paid</fullName>
-                    <default>false</default>
-                    <label>Paid</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>Sub_Status__c</fullName>
-        <externalId>false</externalId>
-        <label>Sub Status</label>
+        <label>Product Name</label>
+        <length>150</length>
         <required>true</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <controllingField>Status__c</controllingField>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>In Review</fullName>
-                    <default>false</default>
-                    <label>In Review</label>
-                </value>
-                <value>
-                    <fullName>Pending</fullName>
-                    <default>false</default>
-                    <label>Pending</label>
-                </value>
-                <value>
-                    <fullName>Contacted once</fullName>
-                    <default>false</default>
-                    <label>Contacted once</label>
-                </value>
-                <value>
-                    <fullName>Contacted Twice</fullName>
-                    <default>false</default>
-                    <label>Contacted Twice</label>
-                </value>
-                <value>
-                    <fullName>Pending going to Legal</fullName>
-                    <default>false</default>
-                    <label>Pending going to Legal</label>
-                </value>
-            </valueSetDefinition>
-            <valueSettings>
-                <controllingFieldValue>Draft</controllingFieldValue>
-                <valueName>In Review</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Draft</controllingFieldValue>
-                <valueName>Pending</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Overdue</controllingFieldValue>
-                <valueName>Contacted once</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Overdue</controllingFieldValue>
-                <valueName>Contacted Twice</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Overdue</controllingFieldValue>
-                <valueName>Pending going to Legal</valueName>
-            </valueSettings>
-        </valueSet>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
-    <label>Invoice</label>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+    <fields>
+        <fullName>Qty__c</fullName>
+        <externalId>false</externalId>
+        <label>Qty</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total__c</fullName>
+        <externalId>false</externalId>
+        <formula>Qty__c  *  Unit_Price__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Qty times Unit Price</inlineHelpText>
+        <label>Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Unit_Price__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>the unit price of the product</inlineHelpText>
+        <label>Unit Price</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Invoice Product</label>
     <nameField>
-        <displayFormat>INV-{0000}</displayFormat>
-        <label>Invoice Number</label>
+        <displayFormat>IP-{0000}</displayFormat>
+        <label>Invoice Product</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>invoices</pluralLabel>
+    <pluralLabel>Invoice Products</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

@@ -1431,9 +1431,16 @@
         <members>InvoiceLine.TaxRate</members>
         <members>InvoiceLine.Type</members>
         <members>InvoiceLine.UnitPrice</members>
+        <members>Invoice_Product__c.Invoice__c</members>
+        <members>Invoice_Product__c.Product_Name__c</members>
+        <members>Invoice_Product__c.Qty__c</members>
+        <members>Invoice_Product__c.Total__c</members>
+        <members>Invoice_Product__c.Unit_Price__c</members>
+        <members>Invoice__c.Account__c</members>
         <members>Invoice__c.Invoice_Date__c</members>
         <members>Invoice__c.Notes__c</members>
         <members>Invoice__c.Status__c</members>
+        <members>Invoice__c.Sub_Status__c</members>
         <members>Lead.Address</members>
         <members>Lead.AnnualRevenue</members>
         <members>Lead.CampaignId</members>
@@ -2730,6 +2737,7 @@
         <members>InventoryReservation</members>
         <members>Invoice</members>
         <members>InvoiceLine</members>
+        <members>Invoice_Product__c</members>
         <members>Invoice__c</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
