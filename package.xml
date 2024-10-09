@@ -2880,6 +2880,7 @@
         <members>WorkType</members>
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
+        <members>custom_object1__c</members>
         <name>CustomObject</name>
     </types>
     <types>
