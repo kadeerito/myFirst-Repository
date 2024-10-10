@@ -46,6 +46,7 @@
         <name>ContentAsset</name>
     </types>
     <types>
+        <members>DreamHouse</members>
         <members>KaderApp</members>
         <members>KaderApp_Lightning</members>
         <members>standard__AllTabSet</members>
