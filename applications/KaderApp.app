@@ -11,5 +11,6 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Idea</tabs>
+hffrvibvowfubt
     <tabs>Invoice__c</tabs>
 </CustomApplication>
