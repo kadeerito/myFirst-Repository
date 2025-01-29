@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>60.0</version>
+    <version>61.0</version>
     <types>
         <members>apexEmailNotifications</members>
         <name>ApexEmailNotifications</name>
@@ -2851,6 +2851,7 @@
         <members>StreamingChannel</members>
         <members>TableauHostMapping</members>
         <members>Task</members>
+        <members>Test__c</members>
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
@@ -2890,6 +2891,7 @@
     <types>
         <members>Invoice__c</members>
         <members>Kader_App</members>
+        <members>Test__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -3094,6 +3096,7 @@
         <members>Solution-Solution Layout</members>
         <members>StandardShippingRate-Standard Shipping Rate Layout</members>
         <members>Task-Task Layout</members>
+        <members>Test__c-Test Object Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
         <members>User-User Layout</members>
@@ -3272,6 +3275,7 @@
         <members>Task.RecurringTasks</members>
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
+        <members>Test__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
