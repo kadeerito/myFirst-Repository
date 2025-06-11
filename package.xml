@@ -1441,6 +1441,7 @@
         <members>Invoice__c.Notes__c</members>
         <members>Invoice__c.Status__c</members>
         <members>Invoice__c.Sub_Status__c</members>
+        <members>Invoice__c.film__c</members>
         <members>Invoice__c.street__c</members>
         <members>Lead.Address</members>
         <members>Lead.AnnualRevenue</members>

@@ -288,6 +288,17 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>film__c</fullName>
+        <externalId>false</externalId>
+        <label>film</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>street__c</fullName>
         <externalId>false</externalId>
         <label>street</label>
