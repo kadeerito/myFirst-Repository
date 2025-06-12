@@ -2959,6 +2959,11 @@
         <name>Flow</name>
     </types>
     <types>
+        <members>My_1st_flow</members>
+        <members>My_2nd_flow</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
         <members>DE Default</members>
         <name>HomePageLayout</name>
     </types>
@@ -3042,6 +3047,7 @@
         <members>GuestUserAnomalyEventStore-Guest User Anomaly Event Store Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
+        <members>Industry__mdt-Movie Layout</members>
         <members>Invoice-Invoice Layout</members>
         <members>InvoiceLine-Invoice Line Layout</members>
         <members>Invoice__c-Invoice Layout</members>
