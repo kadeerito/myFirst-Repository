@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>63.0</version>
+    <version>60.0</version>
     <types>
         <members>A0</members>
         <members>AccountTriggerHandler</members>
@@ -2626,6 +2626,10 @@
         <members>WorkTypeGroup.OwnerId</members>
         <members>WorkTypeGroupMember.WorkTypeGroupId</members>
         <members>WorkTypeGroupMember.WorkTypeId</members>
+        <members>testCustom__c.testCustCheck1__c</members>
+        <members>testCustom__c.testCustCheck__c</members>
+        <members>testCustom__c.testID__c</members>
+        <members>testCustom__c.testName__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -2890,6 +2894,7 @@
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
         <members>custom_object1__c</members>
+        <members>testCustom__c</members>
         <name>CustomObject</name>
     </types>
     <types>
