@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>63.0</version>
+    <version>64.0</version>
     <types>
         <members>KaderApp</members>
         <members>KaderApp_Lightning</members>
@@ -44,6 +44,9 @@
         <members>Account.Description</members>
         <members>Account.DunsNumber</members>
         <members>Account.Fax</members>
+        <members>Account.Field_A__c</members>
+        <members>Account.Field_B__c</members>
+        <members>Account.Field_C__c</members>
         <members>Account.Industry</members>
         <members>Account.Jigsaw</members>
         <members>Account.NaicsCode</members>
@@ -3445,6 +3448,7 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Account.new_one</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
         <members>testcase__c.Ticket</members>
         <name>RecordType</name>
