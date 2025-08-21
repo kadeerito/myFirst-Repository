@@ -3334,6 +3334,7 @@
     </types>
     <types>
         <members>Experience_Profile_Manager</members>
+        <members>new1</members>
         <members>sfdcInternalInt__sfdc_scrt2</members>
         <name>PermissionSet</name>
     </types>
