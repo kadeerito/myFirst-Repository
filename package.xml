@@ -86,10 +86,16 @@
         <members>Account.BillingAddress</members>
         <members>Account.CleanStatus</members>
         <members>Account.CustomerPriority__c</members>
+        <members>Account.Customer__c</members>
         <members>Account.DandbCompanyId</members>
         <members>Account.Description</members>
         <members>Account.DunsNumber</members>
         <members>Account.Fax</members>
+        <members>Account.Field_2__c</members>
+        <members>Account.Field_3__c</members>
+        <members>Account.Field_A__c</members>
+        <members>Account.Field_B__c</members>
+        <members>Account.Field_C__c</members>
         <members>Account.Industry</members>
         <members>Account.Jigsaw</members>
         <members>Account.NaicsCode</members>
@@ -1448,6 +1454,7 @@
         <members>Invoice__c.Sub_Status__c</members>
         <members>Invoice__c.film__c</members>
         <members>Invoice__c.street__c</members>
+        <members>LLC_test_case__c.New_field__c</members>
         <members>Lead.Address</members>
         <members>Lead.AnnualRevenue</members>
         <members>Lead.CampaignId</members>
@@ -2747,6 +2754,7 @@
         <members>InvoiceLine</members>
         <members>Invoice_Product__c</members>
         <members>Invoice__c</members>
+        <members>LLC_test_case__c</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>LearningAssignment</members>
@@ -3425,6 +3433,7 @@
         <name>QuickAction</name>
     </types>
     <types>
+        <members>Account.new_one</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
         <name>RecordType</name>
     </types>
