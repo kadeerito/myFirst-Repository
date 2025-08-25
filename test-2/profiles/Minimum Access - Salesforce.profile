@@ -21,11 +21,6 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__Approvals</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__Chatter</application>
         <default>false</default>
         <visible>true</visible>
@@ -37,11 +32,6 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Content</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>standard__DataGovernanceConsole</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -91,11 +81,6 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__MSJApp</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__Marketing</application>
         <default>false</default>
         <visible>true</visible>
@@ -117,11 +102,6 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Sales</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>standard__SalesCloudMobile</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -322,16 +302,6 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Account__c.Type2__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account__c.Type_1__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>AppointmentInvitation.AppointmentTopicId</field>
         <readable>true</readable>
@@ -379,131 +349,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>AppointmentInvitee.ParticipantServiceResourceId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmission.Comments</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmission.DoesSendApprovalEmail</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmission.FlowOrchestrationInstanceId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmission.RelatedRecordId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmission.RelatedRecordObjectName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmission.Status</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmission.SubmittedById</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmissionDetail.ActionChannelName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmissionDetail.ActionContext</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmissionDetail.ActionName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmissionDetail.ActionPerformedById</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmissionDetail.ActionPerformerRole</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmissionDetail.ApprovalSubmissionId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmissionDetail.ApprovalWorkItemId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalSubmissionDetail.Comments</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalWorkItem.ApprovalConditionName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalWorkItem.ApprovalSubmissionId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalWorkItem.AssignedToId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalWorkItem.Comments</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalWorkItem.FlowOrchestrationWorkItemId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalWorkItem.RelatedRecordId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalWorkItem.RelatedRecordObjectName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalWorkItem.ReviewedById</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalWorkItem.ReviewedDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ApprovalWorkItem.Status</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1173,11 +1018,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>CommSubscription.CommunicationSubscriptionCode</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>CommSubscription.DataUsePurposeId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1259,11 +1099,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Birthdate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.BuyerAttributes</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1802,41 +1637,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>CreditMemo.CorpCrcyCnvTotAmtWithTax</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>CreditMemo.CorporateCurrencyCvsnDate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>CreditMemo.CorporateCurrencyCvsnRate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>CreditMemoLine.CorpCurrencyCnvChargeAmt</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>CreditMemoLine.CorpCurrencyCnvTotalTaxAmt</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>CreditMemoLine.CorporateCurrencyCvsnDate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>CreditMemoLine.CorporateCurrencyCvsnRate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Customer.CustomerStatusType</field>
         <readable>true</readable>
@@ -2258,51 +2058,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Invoice.Contact__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Invoice.CorpCrcyCnvTotAmtWithTax</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Invoice.CorporateCurrencyCvsnDate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Invoice.CorporateCurrencyCvsnRate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>InvoiceLine.CorpCurrencyCnvChargeAmt</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>InvoiceLine.CorpCurrencyCnvTotalTaxAmt</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>InvoiceLine.CorporateCurrencyCvsnDate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>InvoiceLine.CorporateCurrencyCvsnRate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Invoice_Product__c.Total__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Invoice__c.Invoice_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2315,16 +2070,6 @@
         <editable>true</editable>
         <field>Invoice__c.Status__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Invoice__c.film__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Invoice__c.street__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -2502,21 +2247,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.DefaultPickupTime</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.DefaultProcessingTime</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.DefaultProcessingTimeUnit</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Location.Description</field>
         <readable>true</readable>
@@ -2525,11 +2255,6 @@
         <editable>true</editable>
         <field>Location.DrivingDirections</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.FulfillingBusinessHoursId</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2577,19 +2302,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>LocationWaitlistedParty.MobilePhone</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>MessagingEndUser.AccountId</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>MessagingEndUser.AuthenticatedEndUserId</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2605,11 +2320,6 @@
         <editable>true</editable>
         <field>MessagingEndUser.IsOptedOut</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>MessagingEndUser.Language</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2634,21 +2344,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>MessagingSession.OpportunityId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>New_page__c.Case_1__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>New_page__c.Case_2__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>New_page__c.Case_3__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2893,11 +2588,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>OrderItem.ReferencePrice</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>OrderItem.ServiceDate</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3058,11 +2748,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Promotion.IsApproachingDiscountApplicable</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Promotion.IsAutomatic</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3170,11 +2855,6 @@
         <editable>true</editable>
         <field>ReturnOrder.OrderId</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>ReturnOrder.ProcessType</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3398,11 +3078,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>ServiceAppointment.TimeZone</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>ServiceAppointment.WorkTypeId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3573,21 +3248,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>ServiceTerritory.PricebookId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>ServiceTerritory.SelfCheckInUrl</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>ServiceTerritory.ServiceAppointmentLimitType</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>ServiceTerritory.TopLevelTerritoryId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3649,11 +3309,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>ShiftWorkTopic.AttendeeLimit</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>ShiftWorkTopic.ServiceAppointmentLimit</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3778,42 +3433,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Ticket__c.Number1__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Ticket__c.Raiffeisen__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Ticket__c.number2__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>TimeSlot.MaxAppointments</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>TimeSlot.WorkTypeGroupId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Waitlist.Link</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Waitlist.ShouldAllowSelfCheckIn</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Waitlist.Type</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4197,11 +3822,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>WorkStep.ProcessType</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>WorkStep.StartTime</field>
         <readable>true</readable>
@@ -4268,11 +3888,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>WorkType.ProductId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>WorkType.TimeFrameEndUnit</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -4302,28 +3917,10 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>class_test__c.Test_V1__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>test_purpose__c.City__c</field>
+        <readable>false</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>class_test__c.Test_V2__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>class_test__c.Test_V3__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>testcase__c.ToDolist__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <layoutAssignments>
-        <layout>Account__c-Account Layout</layout>
-    </layoutAssignments>
     <layoutAssignments>
         <layout>AlternativePaymentMethod-Alternative Payment Method Layout</layout>
     </layoutAssignments>
@@ -4436,12 +4033,6 @@
         <layout>GuestUserAnomalyEventStore-Guest User Anomaly Event Store Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Industry__mdt-Movie Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Invoice_Product__c-Invoice Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Invoice__c-Invoice Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4455,9 +4046,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>LocationGroupAssignment-Location Group Assignment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>New_page__c-New page Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>PaymentAuthAdjustment-Payment Authorization Adjustment Layout</layout>
@@ -4508,13 +4096,7 @@
         <layout>StandardShippingRate-Standard Shipping Rate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Test__c-Test Object Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>ThreatDetectionFeedback-Threat Detection Feedback Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Ticket__c-Ticket Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserAlt-User Profile Layout</layout>
@@ -4565,17 +4147,11 @@
         <layout>WorkStepTemplate-Work Step Template Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>class_test__c-class test Layout</layout>
+        <layout>test_purpose__c-test purpose Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>test_3__c-test-3 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>testcase__c-testcase Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>testcase__c-testcase Layout</layout>
-        <recordType>testcase__c.Ticket</recordType>
+        <layout>test_purpose__c-test purpose Layout</layout>
+        <recordType>test_purpose__c.case</recordType>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -4584,7 +4160,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>ContractLineItem</object>
-        <viewAllFields>false</viewAllFields>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -4594,7 +4169,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Entitlement</object>
-        <viewAllFields>false</viewAllFields>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -4604,7 +4178,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>EntitlementContact</object>
-        <viewAllFields>false</viewAllFields>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -4614,7 +4187,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>QuickText</object>
-        <viewAllFields>false</viewAllFields>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -4624,7 +4196,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>ServiceContract</object>
-        <viewAllFields>false</viewAllFields>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <recordTypeVisibilities>
@@ -4634,7 +4205,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <recordType>testcase__c.Ticket</recordType>
+        <recordType>test_purpose__c.case</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
@@ -4646,31 +4217,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Test__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Ticket__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AlternativePaymentMethod</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ApprovalSubmission</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ApprovalSubmissionDetail</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ApprovalWorkItem</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4782,7 +4333,7 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-DataMaskCustomValueLibrary</tab>
+        <tab>standard-DandBCompany</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4791,10 +4342,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DataUsePurpose</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DeliveryEstimationSetup</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4863,10 +4410,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-LocationGroup</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-LocationShippingCarrierMethod</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4978,14 +4521,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ShippingCarrier</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ShippingCarrierMethod</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Solution</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -4995,10 +4530,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-WebStore</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -5027,14 +4558,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-WorkTypeGroup</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>test_3__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>testcase__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
