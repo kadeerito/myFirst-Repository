@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>60.0</version>
+    <version>64.0</version>
     <types>
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
+        <members>ContactPointEmail.UsageType</members>
         <name>CustomField</name>
     </types>
 </Package>
