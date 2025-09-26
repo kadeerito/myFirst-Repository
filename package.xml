@@ -1605,6 +1605,7 @@
         <members>Opportunity.Pricebook2Id</members>
         <members>Opportunity.Probability</members>
         <members>Opportunity.StageName</members>
+        <members>Opportunity.Territory_Country__c</members>
         <members>Opportunity.TotalOpportunityQuantity</members>
         <members>Opportunity.TrackingNumber__c</members>
         <members>Opportunity.Type</members>
