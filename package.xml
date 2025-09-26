@@ -104,6 +104,7 @@
         <members>Account.NumberOfEmployees</members>
         <members>Account.NumberofLocations__c</members>
         <members>Account.OperatingHoursId</members>
+        <members>Account.Opportunity1__c</members>
         <members>Account.OwnerId</members>
         <members>Account.Ownership</members>
         <members>Account.ParentId</members>
