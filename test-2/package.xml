@@ -1695,6 +1695,7 @@
         <members>Opportunity.Pricebook2Id</members>
         <members>Opportunity.Probability</members>
         <members>Opportunity.StageName</members>
+        <members>Opportunity.Territory_Country__c</members>
         <members>Opportunity.TotalOpportunityQuantity</members>
         <members>Opportunity.TrackingNumber__c</members>
         <members>Opportunity.Type</members>
@@ -2746,6 +2747,7 @@
         <members>class_test__c.Test_V1__c</members>
         <members>class_test__c.Test_V2__c</members>
         <members>class_test__c.Test_V3__c</members>
+        <members>test_purpose__c.City__c</members>
         <members>testcase__c.ToDolist__c</members>
         <members>testcase__c.case__c</members>
         <name>CustomField</name>
@@ -3024,6 +3026,7 @@
         <members>WorkTypeGroupMember</members>
         <members>class_test__c</members>
         <members>test_3__c</members>
+        <members>test_purpose__c</members>
         <members>testcase__c</members>
         <name>CustomObject</name>
     </types>
@@ -3444,12 +3447,14 @@
         <members>Standard</members>
         <members>StandardAul</members>
         <members>Work%2Ecom Only User</members>
+        <members>test profile</members>
         <members>test user</members>
         <name>Profile</name>
     </types>
     <types>
         <members>Account.new_one</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
+        <members>test_purpose__c.case</members>
         <members>testcase__c.Ticket</members>
         <name>RecordType</name>
     </types>
