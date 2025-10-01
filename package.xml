@@ -2377,6 +2377,7 @@
         <members>TimeSlot.Type</members>
         <members>TimeSlot.WorkTypeGroupId</members>
         <members>User.ManagerId</members>
+        <members>User.Ticket__c</members>
         <members>User.ticket__c</members>
         <members>UserProvisioningRequest.AppName</members>
         <members>UserProvisioningRequest.ApprovalStatus</members>
