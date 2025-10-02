@@ -1,0 +1,15 @@
+{
+  "prefix": "ncino",
+  "packageDirectories": {
+    "Rel 2025_02 v1": {
+      "metadata": {
+        "exclude": {
+          "CustomObject": []
+        }
+      },
+      "data": {
+        "exclude": {}
+      }
+    }
+  }
+}

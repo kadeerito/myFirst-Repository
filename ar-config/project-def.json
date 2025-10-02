@@ -1,4 +1,6 @@
 {
   "defaultMetadataPath": "test-2",
-  "defaultFeaturesPath": {}
+  "defaultFeaturesPath": {
+    "nCino": "feature-templates"
+  }
 }

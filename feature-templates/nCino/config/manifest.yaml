@@ -1,0 +1,12 @@
+!!com.rabit.featuremigration.beans.vcstructure.ConfigManifest
+packageDirectories:
+  packagePaths:
+    dataset:
+      features:
+        01lBtR17-User Interface:
+          path: dataset/01lBtR17-User Interface
+          prefix: ncino
+          standardFeature: true
+          versions:
+            Rel 2025_02 v1:
+              modifiedDate: '2025-10-02 16:23:59'
