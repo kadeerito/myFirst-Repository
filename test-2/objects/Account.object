@@ -303,6 +303,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Customer1__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer1</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>CustomerPriority__c</fullName>
         <label>Customer Priority</label>
         <required>false</required>
@@ -415,6 +425,16 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Opportunity1__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity1</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
@@ -488,10 +508,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>helloaddress2</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
         <fullName>Sic</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -552,6 +568,10 @@
     </fields>
     <fields>
         <fullName>YearStarted</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>helloaddress2</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <listViews>
