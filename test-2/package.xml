@@ -75,6 +75,7 @@
         <members>Account.UpsellOpportunity__c</members>
         <members>Account.Website</members>
         <members>Account.YearStarted</members>
+        <members>Account.assignment__c</members>
         <members>Account.helloaddress2</members>
         <members>AccountCleanInfo.Industry</members>
         <members>AccountCleanInfo.Ownership</members>
