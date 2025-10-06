@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ACCL3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ACCL3helloooo</shortDescription>
+        <value>1234</value>
+    </labels>
+    <labels>
+        <fullName>ACCt3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ACCt3hellooooooooo</shortDescription>
+        <value>3k</value>
+    </labels>
+</CustomLabels>
