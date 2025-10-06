@@ -3047,6 +3047,7 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>CustObj2__c</members>
         <members>Invoice__c</members>
         <members>Kader_App</members>
         <members>Test__c</members>
