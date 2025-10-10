@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Salesforce CMS</label>
+    <navType>Console</navType>
+    <tabs>standard-CmsAuthorHome</tabs>
+    <tabs>standard-CmsChannel</tabs>
+    <tabs>standard-CmsWorkspaces</tabs>
+    <tabs>standard-CmsExperiences</tabs>
+    <tabs>testcase__c</tabs>
+    <tabs>Test__c</tabs>
+    <tabs>test_3__c</tabs>
+    <tabs>Ticket__c</tabs>
+    <uiType>Lightning</uiType>
+    <workspaceConfig>
+        <mappings>
+            <tab>Test__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Ticket__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-CmsAuthorHome</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-CmsChannel</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-CmsExperiences</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-CmsWorkspaces</tab>
+        </mappings>
+        <mappings>
+            <tab>test_3__c</tab>
+        </mappings>
+        <mappings>
+            <tab>testcase__c</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>
