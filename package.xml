@@ -9,4 +9,8 @@
         <members>ContactPointEmail.UsageType</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Account.testing case</members>
+        <name>WorkflowRule</name>
+    </types>
 </Package>
