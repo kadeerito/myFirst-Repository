@@ -4215,8 +4215,4 @@
         <members>Case.ChangePriorityToHigh</members>
         <name>WorkflowFieldUpdate</name>
     </types>
-    <types>
-        <members>Account.New_issue</members>
-        <name>WorkflowTask</name>
-    </types>
 </Package>
