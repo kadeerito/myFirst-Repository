@@ -4216,10 +4216,6 @@
         <name>WorkflowFieldUpdate</name>
     </types>
     <types>
-        <members>Account.testing case</members>
-        <name>WorkflowRule</name>
-    </types>
-    <types>
         <members>Account.New_issue</members>
         <name>WorkflowTask</name>
     </types>
