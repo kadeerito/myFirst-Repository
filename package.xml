@@ -119,6 +119,7 @@
         <members>Account.ParentId</members>
         <members>Account.Phone</members>
         <members>Account.Rating</members>
+        <members>Account.Replication__c</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
