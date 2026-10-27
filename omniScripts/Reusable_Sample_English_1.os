@@ -3,10 +3,10 @@
     <description>sample reusable OmniScript</description>
     <elementTypeComponentMapping>{&quot;ElementTypeToHTMLTemplateList&quot;:[]}</elementTypeComponentMapping>
     <isActive>false</isActive>
-    <isIntegrationProcedure>true</isIntegrationProcedure>
-    <isManagedUsingStdDesigner>true</isManagedUsingStdDesigner>
-    <isMetadataCacheDisabled>true</isMetadataCacheDisabled>
-    <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
+    <isIntegrationProcedure>false</isIntegrationProcedure>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <isOmniScriptEmbeddable>true</isOmniScriptEmbeddable>
     <isTestProcedure>false</isTestProcedure>
     <isWebCompEnabled>true</isWebCompEnabled>
     <language>English</language>
