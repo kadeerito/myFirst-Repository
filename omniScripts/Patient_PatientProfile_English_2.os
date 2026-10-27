@@ -2,12 +2,12 @@
 <OmniScript xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>SFDCINGRX-507 Enabler</description>
     <elementTypeComponentMapping>{&quot;ElementTypeToHTMLTemplateList&quot;:[]}</elementTypeComponentMapping>
-    <isActive>false</isActive>
-    <isIntegrationProcedure>true</isIntegrationProcedure>
-    <isManagedUsingStdDesigner>true</isManagedUsingStdDesigner>
-    <isMetadataCacheDisabled>true</isMetadataCacheDisabled>
-    <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
-    <isTestProcedure>false</isTestProcedure>
+    <isActive>true</isActive>
+    <isIntegrationProcedure>false</isIntegrationProcedure>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
+    <isOmniScriptEmbeddable>true</isOmniScriptEmbeddable>
+    <isTestProcedure>true</isTestProcedure>
     <isWebCompEnabled>true</isWebCompEnabled>
     <language>English</language>
     <name>Patient Profile</name>
