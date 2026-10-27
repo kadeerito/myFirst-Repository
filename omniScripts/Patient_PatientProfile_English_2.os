@@ -3,10 +3,10 @@
     <description>SFDCINGRX-507 Enabler</description>
     <elementTypeComponentMapping>{&quot;ElementTypeToHTMLTemplateList&quot;:[]}</elementTypeComponentMapping>
     <isActive>false</isActive>
-    <isIntegrationProcedure>false</isIntegrationProcedure>
-    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
-    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
-    <isOmniScriptEmbeddable>true</isOmniScriptEmbeddable>
+    <isIntegrationProcedure>true</isIntegrationProcedure>
+    <isManagedUsingStdDesigner>true</isManagedUsingStdDesigner>
+    <isMetadataCacheDisabled>true</isMetadataCacheDisabled>
+    <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
     <isTestProcedure>false</isTestProcedure>
     <isWebCompEnabled>true</isWebCompEnabled>
     <language>English</language>
