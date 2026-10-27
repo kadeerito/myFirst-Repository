@@ -3,22 +3,22 @@
     <description>sample reusable OmniScript</description>
     <elementTypeComponentMapping>{&quot;ElementTypeToHTMLTemplateList&quot;:[]}</elementTypeComponentMapping>
     <isActive>false</isActive>
-    <isIntegrationProcedure>true</isIntegrationProcedure>
-    <isManagedUsingStdDesigner>true</isManagedUsingStdDesigner>
-    <isMetadataCacheDisabled>true</isMetadataCacheDisabled>
+    <isIntegrationProcedure>false</isIntegrationProcedure>
+    <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
+    <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
     <isOmniScriptEmbeddable>true</isOmniScriptEmbeddable>
     <isTestProcedure>false</isTestProcedure>
     <isWebCompEnabled>true</isWebCompEnabled>
     <language>English</language>
     <name>Company Mailing Address</name>
     <omniProcessElements>
-        <isActive>false</isActive>
-        <isOmniScriptEmbeddable>true</isOmniScriptEmbeddable>
+        <isActive>true</isActive>
+        <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
         <level>0.0</level>
         <name>DataRaptorExtractAction1</name>
         <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
         <propertySetConfig>{
-  &quot;controlWidth&quot; : 12,
+  &quot;controlWidth&quot; : 15,
   &quot;label&quot; : &quot;DataRaptorExtractAction1&quot;,
   &quot;bundle&quot; : &quot;reusableCompanyMailingAddress&quot;,
   &quot;ignoreCache&quot; : false,

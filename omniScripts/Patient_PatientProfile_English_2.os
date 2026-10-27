@@ -2,8 +2,8 @@
 <OmniScript xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>SFDCINGRX-507 Enabler</description>
     <elementTypeComponentMapping>{&quot;ElementTypeToHTMLTemplateList&quot;:[]}</elementTypeComponentMapping>
-    <isActive>true</isActive>
-    <isIntegrationProcedur>true</isIntegrationProcedure>
+    <isActive>false</isActive>
+    <isIntegrationProcedure>false</isIntegrationProcedure>
     <isManagedUsingStdDesigner>false</isManagedUsingStdDesigner>
     <isMetadataCacheDisabled>false</isMetadataCacheDisabled>
     <isOmniScriptEmbeddable>true</isOmniScriptEmbeddable>
@@ -12,13 +12,13 @@
     <language>English</language>
     <name>Patient Profile</name>
     <omniProcessElements>
-        <isActive>false</isActive>
+        <isActive>true</isActive>
         <isOmniScriptEmbeddable>false</isOmniScriptEmbeddable>
         <level>0.0</level>
         <name>getPatientProfileData</name>
         <omniProcessVersionNumber>0.0</omniProcessVersionNumber>
         <propertySetConfig>{
-  &quot;controlWidth&quot; : 12,
+  &quot;controlWidth&quot; :15,
   &quot;label&quot; : &quot;getPatientProfileData&quot;,
   &quot;integrationProcedureKey&quot; : &quot;Patient_PatientProfile&quot;,
   &quot;useContinuation&quot; : false,
